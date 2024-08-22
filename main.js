@@ -837,7 +837,7 @@ var HypoTrack = (function () {
             deleteTrackPoints = deletePointsCheckbox.checked;
         }
 
-        let altColorCheckbox = checkbox('alt-color-checkbox', 'Use Accessible Colors', buttons);
+        let altColorCheckbox = checkbox('alt-color-checkbox', 'Use Alternate Colors', buttons);
         altColorCheckbox.onclick = function () {
             useAltColors = altColorCheckbox.checked;
         };
