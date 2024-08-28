@@ -925,7 +925,7 @@ var HypoTrack = (function () {
             return;
 
         const k = key.toLowerCase();
-        const categoryKeys = ['d', 's', '1', '2', '3', '4', '5', 'u'];
+        const categoryKeys = ['d', 's', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', 'y', 'm', 'i', 'r', 'u'];
         const typeKeys = ['t', 'b', 'x'];
 
         if(categoryKeys.includes(k))
