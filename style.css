@@ -1,8 +1,8 @@
 body {
-	background: #5C0094;
-	background: linear-gradient(#5C0094, #1F0053);
-	font-family: "Lexend", "Nunito", sans-serif;
-	color: #868686;
+	background: #480074;
+	background: linear-gradient(#480074, #1D004D);
+	font-family: "Lexend", "Arial", sans-serif;
+	color: #FFFFFF;
 }
 
 a {
@@ -16,12 +16,12 @@ a {
 	position: fixed;
 	bottom: 0px;
 	right: 0px;
-	color: #868686;
+	color: #FFFFFF;
 	padding: .4rem;
 	z-index: 100;
 	user-select: none;
-	background-color: #7600AE;
-	border: .15rem solid #868686;
+	background-color: #4B0079;
+	border: .15rem solid #DAB5FF;
 	font-size: 12px;
 }
 
@@ -35,7 +35,7 @@ a:after {
 
 a:hover,
 a#version:hover {
-	color: #868686;
+	color: #FFFFFF;
 	transform-origin: 50% 50%;
 }
 
@@ -57,17 +57,17 @@ ul li {
 	position: absolute;
 	top: 10px;
 	left: 10px;
-	background-color: #7600AE;
-	border: .15rem solid #868686;
+	background-color: #4B0079;
+	border: .15rem solid #DAB5FF;
 	padding: 1rem;
 	border-radius: .2rem .8rem;
 }
 
 #ui-container div {
 	margin-bottom: .75rem;
-	background-color: #7600AE;
+	background-color: #4B0079;
 	padding: .75rem;
-	border: .15rem solid #868686;
+	border: .15rem solid #DAB5FF;
 	border-radius: .4rem;
 }
 
