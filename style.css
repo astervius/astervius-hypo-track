@@ -1,12 +1,12 @@
 body {
-	background: #00FFFF;
-	background: linear-gradient(#00FFFF, #FF69B4);
-	font-family: "Comic Sans MS", "Arial", sans-serif;
-	color: #000080;
+	background: #5C0094;
+	background: linear-gradient(#5C0094, #1F0053);
+	font-family: "Lexend", "Nunito", sans-serif;
+	color: #868686;
 }
 
 a {
-	color: #FF4500;
+	color: #7600AE;
 	display: inline-block;
 	text-decoration: none;
 	font-weight: bold;
@@ -16,26 +16,26 @@ a {
 	position: fixed;
 	bottom: 0px;
 	right: 0px;
-	color: #000080;
+	color: #868686;
 	padding: .4rem;
 	z-index: 100;
 	user-select: none;
-	background-color: #FFFF00;
-	border: .15rem solid #000080;
+	background-color: #7600AE;
+	border: .15rem solid #868686;
 	font-size: 12px;
 }
 
 a:after {
 	display: block;
 	content: '';
-	border-bottom: .15rem solid #000080;
+	border-bottom: .15rem solid #868686;
 	transform: scaleX(0);
 	transition: transform 300ms;
 }
 
 a:hover,
 a#version:hover {
-	color: #000080;
+	color: #868686;
 	transform-origin: 50% 50%;
 }
 
@@ -57,17 +57,17 @@ ul li {
 	position: absolute;
 	top: 10px;
 	left: 10px;
-	background-color: #FF69B4;
-	border: .15rem solid #000080;
+	background-color: #7600AE;
+	border: .15rem solid #868686;
 	padding: 1rem;
 	border-radius: .2rem .8rem;
 }
 
 #ui-container div {
 	margin-bottom: .75rem;
-	background-color: #FFFF00;
+	background-color: #7600AE;
 	padding: .75rem;
-	border: .15rem solid #000080;
+	border: .15rem solid #868686;
 	border-radius: .4rem;
 }
 
